@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F0F0F0">
+
+    <!-- Título de la pantalla -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Iniciar Sesión"
+        android:textSize="24sp"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"/>
+
+    <!-- Campo de Email -->
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <!-- Campo de Contraseña -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <!-- Botón de Login con ícono -->
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="16dp"
+        android:drawableStart="@drawable/ic_login"
+    android:drawablePadding="8dp"
+    android:textSize="18sp"
+    android:padding="12dp" />
+
+    <!-- Enlace de registro -->
+
+</LinearLayout>
